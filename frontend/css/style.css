@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+  color: #333;
+}
+
+.navbar {
+  background: #1e293b;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.btn {
+  background: #2563eb;
+  padding: 8px 14px;
+  border-radius: 5px;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+  background: #e0e7ff;
+}
+
+.hero input {
+  padding: 10px;
+  width: 250px;
+  margin-top: 15px;
+}
+
+.hero button {
+  padding: 10px 15px;
+  margin-left: 5px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.jobs-section {
+  padding: 40px;
+}
+
+.job-card {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.job-card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+
+
+
+
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  padding: 8px;
+  width: 220px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: none;
+  background: #1e293b;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+.jobs-section .btn {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+.form-section {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-section input,
+.form-section select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.form-section button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#message {
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+
+
+
+.form-section p {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+
+
+
+.job-card {
+  border: 1px solid #ccc;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.actions a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #0066cc;
+}
+
+.actions button {
+  padding: 4px 8px;
+  cursor: pointer;
+}

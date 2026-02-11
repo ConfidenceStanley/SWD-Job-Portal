@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Register | SWD Job Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>SWD Job Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Create an Account</h2>
+
+    <form id="registerForm">
+      <input type="text" id="name" placeholder="Full Name" required />
+      <input type="email" id="email" placeholder="Email Address" required />
+      <input type="password" id="password" placeholder="Password" required />
+
+      <select id="role" required>
+        <option value="">Select Role</option>
+        <option value="job_seeker">Job Seeker</option>
+        <option value="employer">Employer</option>
+      </select>
+
+      <button type="submit" class="btn">Register</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <script src="js/register.js"></script>
+</body>
+</html>

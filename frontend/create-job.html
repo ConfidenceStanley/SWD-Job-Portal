@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Create Job | SWD Job Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>SWD Job Portal</h1>
+    <nav>
+      <a href="employer-dashboard.html">Dashboard</a>
+      <button id="logoutBtn" class="btn">Logout</button>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Post a New Job</h2>
+
+    <form id="createJobForm">
+      <input type="text" id="title" placeholder="Job Title" required />
+      <input type="text" id="company" placeholder="Company Name" required />
+      <input type="text" id="location" placeholder="Job Location" required />
+      <input type="text" id="salary" placeholder="Salary (optional)" />
+      <textarea id="description" placeholder="Job Description" required></textarea>
+
+      <button type="submit" class="btn">Create Job</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <script src="js/create-job.js"></script>
+</body>
+</html>

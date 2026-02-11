@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Edit Job | SWD Job Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>SWD Job Portal</h1>
+    <nav>
+      <a href="employer-dashboard.html">Dashboard</a>
+      <button id="logoutBtn" class="btn">Logout</button>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <h2>Edit Job</h2>
+
+    <form id="editJobForm">
+      <input type="text" id="title" required />
+      <input type="text" id="company" required />
+      <input type="text" id="location" required />
+      <input type="text" id="salary" />
+      <textarea id="description" required></textarea>
+
+      <button type="submit" class="btn">Update Job</button>
+    </form>
+
+    <p id="message"></p>
+  </section>
+
+  <script src="js/edit-job.js"></script>
+</body>
+</html>

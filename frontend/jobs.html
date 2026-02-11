@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jobs | SWD Job Portal</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1>SWD Job Portal</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="register.html" class="btn">Register</a>
+    </nav>
+  </header>
+
+  <section class="jobs-section">
+    <h2>Available Jobs</h2>
+
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search jobs..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <div id="jobs"></div>
+
+    <div class="pagination">
+      <button id="prevBtn">Previous</button>
+      <span id="pageInfo"></span>
+      <button id="nextBtn">Next</button>
+    </div>
+  </section>
+
+  <script src="js/jobs.js"></script>
+</body>
+</html>
