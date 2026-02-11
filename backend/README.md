@@ -58,45 +58,6 @@ This project is built as a **Minimum Viable Product (MVP)** using Node.js, Expre
 * **Nodemailer (Email Notification)**
 * **bcryptjs (Password Hashing)**
 
----
-
-## 📁 Project Structure
-
-
-backend/
-│── src/
-│   ├── controllers/
-│   │   ├── auth.controller.js
-│   │   ├── job.controller.js
-│   │   └── application.controller.js
-│   │
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Job.js
-│   │   └── Application.js
-│   │
-│   ├── routes/
-│   │   ├── auth.routes.js
-│   │   ├── job.routes.js
-│   │   └── application.routes.js
-│   │
-│   ├── middleware/
-│   │   ├── auth.js
-│   │   └── upload.js
-│   │
-│   ├── utils/
-│   │   └── sendEmail.js
-│   │
-│   └── server.js
-│
-│── uploads/          # Uploaded resumes (PDF)
-│── .env
-│── package.json
-│── README.md
-
-
----
-
 ## 🔐 Environment Variables
 
 Create a `.env` file in the backend root:
